@@ -2,25 +2,25 @@
 
 
 
-<a href="secciones" class="m-3"><button type="button" class="btn btn-success">Ver secciones</button></a>
+<a href="secciones" class="m-3"><button type="button" class="btn btn-primary">Ver secciones</button></a>
 
  {* {if $isAdmin } *} 
-    <a href="tablanoticias" class="m-3"><button type="button" class="btn btn-success">Editar noticias</button></a>
-    <a href="tablasecciones" class="m-3"><button type="button" class="btn btn-success">Editar secciones</button></a>
+    <a href="tablanoticias" class="m-3"><button type="button" class="btn btn-primary">Editar noticias</button></a>
+    <a href="tablasecciones" class="m-3"><button type="button" class="btn btn-primary">Editar secciones</button></a>
  {* {/if} *}  
-{* {if $rol == "true"} *}
-    <a href="panel" class="m-3"><button type="button" class="btn btn-danger">Administrador</button></a>
-{* {/if} *}
-<a href="logout" class="m-3"><button type="button" class="btn btn-danger">Log Out</button></a>
 
 {* {if $rol == "true"} *}
-    <a href="agregarnoticia" class="m-3"><button type="button" class="btn btn-success">Agregar noticia</button></a>
-    <a href="agregarseccion" class="m-3"><button type="button" class="btn btn-success">Agregar seccion</button></a>
+    <a href="agregarnoticia" class="m-3"><button type="button" class="btn btn-primary">Agregar noticia</button></a>
+    <a href="agregarseccion" class="m-3"><button type="button" class="btn btn-primary">Agregar seccion</button></a>
 {* {/if} *}
 
 {* {if $logged == "false"} *}
-    <a href="registro" class="m-3"><button type="button" class="btn btn-success">Registrarse</button></a>
-    <a href="login" class="m-3"><button type="button" class="btn btn-warning">Log In</button></a>
+    <a href="registro" class="m-3"><button type="button" class="btn btn-primary">Registrarse</button></a>
+    <a href="login" class="m-3"><button type="button" class="btn btn-primary">Log In</button></a>
+{* {/if} *}
+<a href="logout" class="m-3"><button type="button" class="btn btn-primary">Log Out</button></a>
+{* {if $rol == "true"} *}
+    <a href="panel" class="m-3"><button type="button" class="btn btn-primary">Administrador</button></a>
 {* {/if} *}
 
 {foreach from=$noticias item=$noticia}

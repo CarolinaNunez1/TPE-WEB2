@@ -15,6 +15,6 @@
 <body>
 <header>
 <div class="logo"><img src="./imagenes/Eclipse.jpg" class="logo-header"></div>
-<h1>Eclipse</h1>
+<h1>Diario digital Eclipse</h1>
 
 </header>
